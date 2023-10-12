@@ -29,3 +29,9 @@ Enter password
 > look at halfpass.txt file in the directories and will contain a hint to obtain the decrypted password
 
 Password cracking
+cat hash1.txt > display the hash 
+ls-la
+
+
+> use tool named JOHN: > john -format=raw-md5 -worldlist=/usr/share/wordlists/rockyou.txt [hash1.txt]
+use the tools that takes least amount o time
